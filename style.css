@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  filter: drop-shadow(0 1px 1px black);
+}
+
+body {
+  background-image: url(uwp1456894.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-area-in {
+  width: 35%;
+  height: 75vh;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-area-in .form-area-in1 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-area-in .form-area-in1 .title {
+  color: white;
+  filter: drop-shadow(0 1px 1px black);
+  text-align: center;
+}
+.form-area-in .form-area-in2 {
+  height: 40%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-area-in .form-area-in2 input {
+  outline: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.form-area-in .form-area-in3 {
+  height: 30%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.form-area-in .form-area-in3 button {
+  height: 50%;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 100%;
+  font-weight: 800;
+  transition: 0.3s ease-out;
+}
+.form-area-in .form-area-in3 button:hover {
+  box-shadow: 0 0 8px white;
+  font-size: 110%;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
